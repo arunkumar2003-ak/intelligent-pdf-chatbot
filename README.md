@@ -2,7 +2,9 @@
 
 ## Overview
 
-An AI-powered PDF Chatbot that allows users to upload PDF documents and ask questions in natural language. The chatbot extracts text from uploaded PDFs and generates context-aware responses using the Gemini API.
+The Intelligent PDF Chatbot is an AI-powered application that allows users to upload PDF documents and ask questions about their content. The system extracts text from the uploaded PDF and uses Google's Gemini API to generate relevant answers based on the document information.
+
+This project was developed using Python, Streamlit, and PyPDF to create a simple and interactive chatbot experience. It helps users quickly understand and retrieve information from PDF documents without manually reading the entire file.
 
 ## Features
 
@@ -20,21 +22,20 @@ An AI-powered PDF Chatbot that allows users to upload PDF documents and ask ques
 * PyPDF
 * Python Dotenv
 
-## Project Workflow
+Project Structure
 
-PDF Upload
+pdf-chatbot-rag/
 
-↓
+├── app.py
 
-Text Extraction
+├── requirements.txt
 
-↓
+├── .env
 
-Gemini API
+└── README.md
 
-↓
+└── output.png
 
-Answer Generation
 
 ## Example Questions
 
@@ -53,3 +54,9 @@ Answer Generation
 ## Author
 
 Arun Kumar
+
+
+output of the project
+
+<img width="967" height="834" alt="output" src="https://github.com/user-attachments/assets/cae5e1e5-8cde-46d5-b9f6-f6c4a86f27fc" />
+
